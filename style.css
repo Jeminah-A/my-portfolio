@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+   
+  }
+  
+  .hero {
+    margin-top: 30px;
+  }
+  
+  .logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    margin-top: 40px; 
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+
+  .toggle-content {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  .toggle-content.show {
+    display: block;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  .toggle-header {
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .project-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.video {
+  width: 100%; /* Makes the video resize to fit the container width */
+  height: auto; /* Keeps the aspect ratio intact */
+  max-width: 400px; /* Optional: Set a max width so the video doesn't get too large */
+}
+
+.card{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.paragraph-box {
+  width: 100%;              /* Control the width of the box */
+  max-width: 600px;        /* Set a maximum width for the box */
+  margin: 20px auto;       /* Center the box horizontally with vertical spacing */
+  padding: 15px;           /* Add space inside the box between the border and text */
+  background-color: #f9f9f9;  /* Light background color */
+  border: 1px solid #ddd;  /* Add a light border */
+  border-radius: 10px;     /*  Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /*  Add a subtle shadow */
+}
+
+.paragraph-box p {
+  font-size: 16px;         /* Control the font size */
+  line-height: 1.6;        /* Set line height for readability */
+  color: #333;             /* Text color */
+  margin: 0;               /* Remove default margin */
+}
+
+.spaced-list {
+  margin: 20px;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: #444;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: blue /* Blue hover color */
+}
