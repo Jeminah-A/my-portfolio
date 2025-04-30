@@ -1,12 +1,19 @@
-document.querySelectorAll('.toggle-header').forEach(header => {
+document.addEventListener('DOMContentLoaded', () => {
+  // Show all toggle sections by default
+  document.querySelectorAll('.toggle-content').forEach(content => {
+    content.classList.add('visible');
+  });
+
+  // Add toggle functionality to headers
+  document.querySelectorAll('.toggle-header').forEach(header => {
     header.addEventListener('click', () => {
       const content = header.nextElementSibling;
-      content.classList.toggle('show');
-      // Toggle arrow direction
-      if (content.classList.contains('show')) {
-        header.innerHTML = header.textContent.replace('⮟', '⮝');
-      } else {
-        header.innerHTML = header.textContent.replace('⮝', '⮟');
-      }
+      const isVisible = content.classList.toggle('visible');
+
+      // Toggle arrow
+      header.innerHTML = header.textContent.replace(isVisible ? '⮟' : '⮝', isVisible ? '⮝' : '⮟');
     });
   });
+});
+
+  
