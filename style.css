@@ -5,7 +5,7 @@
   }
   
   body {
-    font-family: sans-serif;
+    font-family:"Roboto", sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
@@ -125,3 +125,13 @@
 .social-links a:hover {
   color: blue /* Blue hover color */
 }
+
+.toggle-content {
+  display: none;
+}
+
+.toggle-content.visible {
+  display: block;
+}
+
+
