@@ -2,12 +2,12 @@
 
 Welcome to my web development portfolio! I'm a hardworking and committed professional with a BSc in Biomedical Engineering, branching into the world of tech with a growing passion for web development, problem-solving, and teamwork.
 
-This portfolio showcases some of my recent work using **HTML**, **CSS**, and **JavaScript**, alongside my background in healthcare coordination, logistics, and administration. It's built from scratch to demonstrate my front-end development skills.
+This portfolio showcases some of my recent work using **HTML**, **CSS**, and **JavaScript**, alongside my background in healthcare coordination, logistics, and administration. It's built from scratch to demonstrate my software development skills.
 
 
 ## 🧑‍💼 Professional Profile
 
-A detail-oriented and time-conscious individual with a strong foundation in biomedical engineering and hands-on experience in:
+A detail-oriented and time-conscious individual with hands-on experience in:
 - Logistics and inventory management
 - Healthcare coordination
 - Administrative support
@@ -41,7 +41,7 @@ Each project includes:
 
 ## 🚀 Goals & Interests
 
-I'm currently building my foundation in front-end development, with plans to explore full-stack and automation technologies. I enjoy solving real-world problems, improving systems, and working on meaningful projects that make a difference.
+I'm currently building my foundation in Software development, with plans to explore other technologies. I enjoy solving real-world problems, improving systems, and working on meaningful projects that make a difference.
 
 ## 📫 Get in Touch
  I'm open to collaborations, feedback, and opportunities to grow!
