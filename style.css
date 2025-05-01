@@ -85,8 +85,8 @@
 }
 
 .card{
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
+ 
 }
 
 .paragraph-box {
@@ -117,7 +117,7 @@
 
 .social-links a {
   margin: 0 10px;
-  color: #444;
+  color: white;
   text-decoration: none;
   transition: color 0.3s;
 }
