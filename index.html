@@ -9,7 +9,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="flex flex-col min-h-screen">
     <header class="flex items-center justify-between p-4 bg-gray-800 text-white">
         <h1 class="text-xl font-bold">
           <a href="index.html">Jeminah Asaah</a>
@@ -17,8 +17,16 @@
       
         <!-- Desktop Nav -->
         <nav class="hidden md:flex space-x-6">
-            <a href="index.html" class="text-white hover:text-blue-300">Home</a>
-            <a href="projects.html" class="text-white hover:text-blue-300">Projects</a>
+            <a href="index.html" target="_blank" class="text-white hover:text-blue-300">Home</a>
+            <a href="projects.html" target="_blank" class="text-white hover:text-blue-300">Projects</a>
+            <a href="cv.html" target="_blank" class="text-white hover:text-blue-300">CV</a>
+
+
+           <!--Downloads CV 
+            <a href="files/Jeminah Asaah CV.pdf" download class="text-white hover:text-blue-300">
+                Download CV
+            </a>
+            -->
             
         </nav>
       
@@ -41,8 +49,9 @@
       
     
 
-    <main>
-        <section>
+    <main  class="flex-grow">
+        <div class="pl-4">
+            <section>
             <a href="index.html">
                 <img src="images/logo.png" alt="logo" class="logo mx-auto rounded-full shadow-lg w-32 h-32">
             </a>
@@ -91,12 +100,15 @@
             </div>
                 
           </section>  
+        </div>
+        
     </main>
 
-    <footer class="bg-gray-800 text-white p-6 text-center">
+    <footer class="bg-gray-800 text-white text-center py-4">
         <div class="social-links mb-4">
             <a href="https://github.com/" target="_blank" aria-label="GitHub" class="text-blue-400 mx-2"><i class="fab fa-github fa-lg"></i></a>
-            <a href="https://uk.linkedin.com/" target="_blank" aria-label="LinkedIn" class="text-blue-400 mx-2"><i class="fab fa-linkedin fa-lg"></i></a>
+            <!--<a href="https://uk.linkedin.com/" target="_blank" aria-label="LinkedIn" class="text-blue-400 mx-2"><i class="fab fa-linkedin fa-lg"></i></a>
+        -->
             
         </div>
         <p>© 2025 Jeminah Asaah</p>
